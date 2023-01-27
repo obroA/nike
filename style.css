@@ -87,3 +87,21 @@ body{
         column-count: 1;
     }
 }
+
+#bezierLogo{
+    width: 310px;
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 138px;
+    transform: rotateY(160deg) rotate(-40deg);
+}
+
+#nikesvg{
+    width: 290px;
+    position: absolute;
+    z-index: 2;
+    top: 460px;
+    left: 220px;
+    transform: rotate(5deg);
+}

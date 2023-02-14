@@ -7,6 +7,8 @@
 
 body{
     transition: all 0.2s ease-in;
+    background-color: #121212;
+    color: white;
 }
 
 .heading{
@@ -15,6 +17,19 @@ body{
     text-align: center;
     margin: 30px 0px;
     border-bottom: 1px solid #bbb;
+}
+
+h1{
+    color:#eeeeee;
+}
+
+.menu{
+
+}
+
+a:visited {
+    text-decoration: underline;
+    color: ;
 }
 
 #gallery{
@@ -45,32 +60,6 @@ body{
     border: 2px solid #ccc;
 }
 
-.like-btn{
-    width: 35px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 14px;
-    right: 10px;
-    background-color: #eee;
-    color: #999;
-    font-size: 22px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: all 0.2s ease-in
-}
-
-#theme-btn{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #444;
-    padding: 6px;
-    border-radius: 10px;
-    cursor: pointer;
-}
 
 @media  screen and (max-width: 768px) {
     #gallery{
@@ -89,19 +78,21 @@ body{
 }
 
 #bezierLogo{
-    width: 310px;
+    width: 320px;
     position: absolute;
     z-index: 2;
-    top: 200px;
-    left: 138px;
-    transform: rotateY(160deg) rotate(-40deg);
+    top: 196px;
+    left: 130px;
+    transform: rotateY(160deg) rotate(-37deg);
+    opacity: 0.6;
 }
 
 #nikesvg{
-    width: 290px;
+    width: 270px;
     position: absolute;
     z-index: 2;
-    top: 460px;
-    left: 220px;
-    transform: rotate(5deg);
+    top: 470px;
+    left: 228px;
+    transform: rotate(3deg);
+    opacity: 0.6;
 }

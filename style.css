@@ -67,6 +67,16 @@ a:visited {
         -moz-column-count: 2;
         column-count: 2;
     }
+    
+    #bezierLogo{
+        width: 320px;
+        position: absolute;
+        z-index: 2;
+        top: 196px;
+        left: -100px;
+        transform: rotateY(160deg) rotate(-37deg);
+        opacity: 0.6;
+    }
 }
 
 @media  screen and (max-width: 480px) {
@@ -81,18 +91,18 @@ a:visited {
     width: 320px;
     position: absolute;
     z-index: 2;
-    top: 196px;
-    left: 130px;
+    top: 175px;
+    left: 100px;
     transform: rotateY(160deg) rotate(-37deg);
     opacity: 0.6;
 }
 
 #nikesvg{
-    width: 270px;
+    width: 230px;
     position: absolute;
     z-index: 2;
-    top: 470px;
-    left: 228px;
-    transform: rotate(3deg);
+    top: 410px;
+    left: 200px;
+    transform: rotate(5deg);
     opacity: 0.6;
 }
